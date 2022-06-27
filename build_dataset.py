@@ -4,12 +4,13 @@ import numpy as np
 import requests
 import yfinance as yf
 import time
+from apy_key import api
 pd.options.display.float_format = '{:.4f}'.format
 pd.options.display.max_columns = 8
 
 from alphacast import Alphacast
 
-API_key = "ak_InwypYyuGx9GQlWNUHDf"
+API_key = api
 alphacast = Alphacast(API_key)
 
 def get_dataset():
