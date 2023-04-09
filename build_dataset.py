@@ -10,7 +10,7 @@ pd.options.display.max_columns = 8
 
 from alphacast import Alphacast
 
-API_key = api
+API_key = "ak_InwypYyuGx9GQlWNUHDf"
 alphacast = Alphacast(API_key)
 
 def get_dataset():
